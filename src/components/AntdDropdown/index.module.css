@@ -2,12 +2,23 @@
 	font-size: 40px;
 }
 
-.box{
-	font-family: Roboto;
+.box {
+	font-family: "Roboto";
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 21px;
 	letter-spacing: 0em;
 	text-align: left;
-	
-	}
+	width: 125px;
+	height: 40px;
+	background: linear-gradient(90deg, #f14f54 14.4%, #ff8f20 86.8%);
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+
+.box:hover {
+	color: #fff;
+}

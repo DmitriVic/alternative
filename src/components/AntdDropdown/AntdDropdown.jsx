@@ -1,4 +1,4 @@
-
+import catImg from '../Header/img/catImg.svg'
 import 'antd/dist/antd.css';
 import s from './index.module.css'
 import '../../App.css';
@@ -32,8 +32,8 @@ const AntdDropdown = () => (
 	<Dropdown className={s.box} overlay={menu} trigger={['click']}>
 	  <a onClick={(e) => e.preventDefault()}>
 		 <Space>
+			<img src={catImg} alt="" />
 			Каталог
-			<DownOutlined />
 		 </Space>
 	  </a>
 	</Dropdown>
