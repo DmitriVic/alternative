@@ -14,31 +14,7 @@
 	}
 }
 
-.label {
-	align-self: center;
-}
 
 
 
-.breadcrumb {
-	display: flex;
-	max-width: 335px;
-	justify-content: space-between;
-	font-family: "Roboto";
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 21px;
-	
-	@media (max-width:1024px) {
-		column-gap: 30px;
-		order: -1;
-		margin: 20px 0;
-	}
-	@media (max-width:768px) {
-		font-size: 14px;
-	}
-	a {
-		color: #1c2128;
-	}
-	
-}
+
