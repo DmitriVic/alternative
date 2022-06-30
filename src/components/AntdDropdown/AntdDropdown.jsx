@@ -2,7 +2,7 @@ import catImg from '../Header/img/catImg.svg'
 import 'antd/dist/antd.css';
 import s from './index.module.css'
 import '../../App.css';
-import { DownOutlined } from '@ant-design/icons';
+//import { DownOutlined } from '@ant-design/icons';
 import { Dropdown, Menu, Space } from 'antd';
 const menu = (
   <Menu
