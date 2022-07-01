@@ -1,5 +1,5 @@
 import catImg from '../Header/img/catImg.svg'
-import 'antd/dist/antd.css';
+//import 'antd/dist/antd.css';
 import s from './index.module.css'
 import '../../App.css';
 //import { DownOutlined } from '@ant-design/icons';
@@ -8,20 +8,34 @@ const menu = (
   <Menu
     items={[
       {
-        label: <a href="https://www.antgroup.com">1st menu item</a>,
+        label: <p  className={s.link}>  Универсальные пломбы</p>,
         key: '0',
       },
       {
-        label: <a href="https://www.aliyun.com">2nd menu item</a>,
+        label: <a href="#" className={s.link}> Пломбы с проволокой </a>,
         key: '1',
       },
-      // {
-      //   type: 'divider',
-      // },
       {
-        label: '3rd menu item',
+        label: <a href="#" className={s.link} > Антимагнитные пломбы </a>,
+        key: '2',
+      },
+      {
+        label: <a href="#" className={s.link}> Пломбировочные наклейки и ленты</a>,
         key: '3',
       },
+      {
+        label: <a href="#" className={s.link}> Запорно-пломбировочные устройства для ж/д состава </a>,
+        key: '4',
+      },
+      {
+        label: <a href="#" className={s.link}> Инструмент, проволока </a>,
+        key: '5',
+      },
+      {
+        label: <a href="#" className={s.link}> Курьерские пакеты и сейф-пакеты </a>,
+        key: '6',
+      },
+    
     ]}
   />
 );
@@ -29,7 +43,7 @@ const menu = (
 const AntdDropdown = () => (
 	
   <>
-	<Dropdown className={s.box} overlay={menu} trigger={['click']}>
+	<Dropdown overlayClassName={s.menu} className={s.box} overlay={menu} trigger={['click']}>
 	  <a onClick={(e) => e.preventDefault()}>
 		 <Space>
 			<img src={catImg} alt="" />

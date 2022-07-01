@@ -17,11 +17,10 @@
 
 
 .modalContent{
+	margin: 0 5px;
 	padding: 20px;
 	border-radius: 12px;
 	background: #fff;
-	width: 50vw;
-	height: 200px;
 	transform: scale(0.5);
 	transition:  0.7s all;
 }

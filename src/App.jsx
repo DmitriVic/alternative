@@ -8,6 +8,7 @@ import Header from "./components/Header/Header";
 import { useState } from "react";
 
 import Modal from "./components/Modal/Modal";
+import CallBackForm from "./components/CallBackForm";
 
 
 
@@ -22,9 +23,12 @@ function App() {
 				setActive={setModalActive} 
 				 />
 			</div>
+			
 			<Modal
 				active={modalActive}
-				setActive={setModalActive}></Modal>
+				setActive={setModalActive}>
+					<CallBackForm/>
+				</Modal>
 
 		</div>
 	);
