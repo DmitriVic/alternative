@@ -9,6 +9,7 @@ import { useState } from "react";
 
 import Modal from "./components/Modal/Modal";
 import CallBackForm from "./components/CallBackForm";
+import Homepage from "./components/pages/Homepage";
 
 
 
@@ -22,6 +23,7 @@ function App() {
 				<Header
 				setActive={setModalActive} 
 				 />
+				<Homepage/>
 			</div>
 			
 			<Modal

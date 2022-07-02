@@ -1,4 +1,12 @@
+.wrapper{
+	position: relative;
+	height: 100%;
+}
+
+
 .header {
+	
+	background: #fff;
 	padding: 10px 0;
 	min-height: 135px;
 	display: grid;
@@ -14,6 +22,16 @@
 	}
 }
 
+.backgr {
+	 position: absolute;
+	 top: 74px;
+	 left: 0;
+	 width: 100%;
+	 @media (max-width:1024px) {
+		top: 200px;
+		opacity: 0.5;
+	 }
+}
 
 
 
