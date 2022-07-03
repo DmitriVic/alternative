@@ -2,6 +2,8 @@ import "@fontsource/montserrat";
 import "@fontsource/oswald";
 import "@fontsource/roboto";
 
+import objData from "./objData/objData"
+
 import './App.css';
 import 'antd/dist/antd.css';
 import Header from "./components/Header/Header";
@@ -15,7 +17,9 @@ import Homepage from "./components/pages/Homepage";
 
 function App() {
 	const [modalActive, setModalActive] = useState(false)
+	const [data, setData] = useState(objData)
 
+	//console.log(data);
 
 	return (
 		<div className="container">
@@ -23,13 +27,13 @@ function App() {
 				<Header
 				setActive={setModalActive} 
 				 />
-				<Homepage/>
+				<Homepage data={data}/>
 			</div>
 			
 			<Modal
 				active={modalActive}
 				setActive={setModalActive}>
-					<CallBackForm/>
+				<CallBackForm/>
 				</Modal>
 
 		</div>
