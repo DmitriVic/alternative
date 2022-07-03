@@ -3,6 +3,7 @@
 //import "antd/dist/antd.css";
 import cn from "classnames";
 import Catalog from "../../Catalog";
+import InfoBlock from "../../InfoBlock";
 import PlombAndSys from "../../PlombAndSys";
 import Text from "../../Text";
 import s from "./index.module.scss";
@@ -12,6 +13,8 @@ import s from "./index.module.scss";
 
 
 export const Homepage = ({data}) => {
+
+
   return (
     <>
     <PlombAndSys/>
@@ -19,6 +22,8 @@ export const Homepage = ({data}) => {
 	 <Text/>
 	 <div style={{ height: '100px'}}></div>
 	 <Catalog data={data}/>
+	 <div style={{ height: '100px'}}></div>
+	 <InfoBlock/>
     </>
   );
 };

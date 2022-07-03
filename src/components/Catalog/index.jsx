@@ -9,7 +9,6 @@ import s from "./index.module.scss";
 
 
 export const Catalog = ({ data }) => {
-	console.log(data);
 	return (
 		<>
 			<div className={s.catalog}>

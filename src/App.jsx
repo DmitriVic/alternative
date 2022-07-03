@@ -2,7 +2,12 @@ import "@fontsource/montserrat";
 import "@fontsource/oswald";
 import "@fontsource/roboto";
 
-import objData from "./objData/objData"
+// import objData from "./objData/objData"
+// import popular from "./objData/objData"
+
+import { objData , popular } from "./objData/objData";
+
+//import * as objData from "./objData/objData";
 
 import './App.css';
 import 'antd/dist/antd.css';
@@ -18,8 +23,9 @@ import Homepage from "./components/pages/Homepage";
 function App() {
 	const [modalActive, setModalActive] = useState(false)
 	const [data, setData] = useState(objData)
+	const [dataPopular, setDataPopular] = useState(popular)
 
-	//console.log(data);
+	console.log(popular);
 
 	return (
 		<div className="container">

@@ -1,19 +1,33 @@
 .InfoBlock {
 	display: grid;
 	max-width: 1076px;
+	margin: 0 auto;
 	grid-template-columns: 1fr 1.5fr 1fr;
+	column-gap: 80px;
 	font-family: "Montserrat";
 	font-weight: 500;
 	font-size: 24px;
 	line-height: 29px;
 	text-align: center;
 	color: #60b7d9;
+	@media (max-width:830px) {
+		grid-template-columns: 1fr ;
+		justify-items: center;
+		row-gap: 20px;
+	}
+	// p {
+	// 	margin: 0;
+	// }
 }
 .item {
+
 	p:first-child {
 		font-family: "Roboto";
 		font-weight: 700;
 		font-size: 100px;
 		line-height: 117px;
+	}
+	@media (max-width:830px) {
+		max-width: 330px;
 	}
 }

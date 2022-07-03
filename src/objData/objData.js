@@ -5,8 +5,9 @@ import img4 from './img/Rectangle 134-3.jpg'
 import img5 from './img/Rectangle 134-4.jpg'
 import img6 from './img/Rectangle 134-5.jpg'
 import img7 from './img/Rectangle 134-6.jpg'
+import avangard from './img/avangard.jpg'
 
-const objData = [
+export const objData = [
 	{
 		id: 1,
 		title: "Универсальные пломбы",
@@ -44,5 +45,168 @@ const objData = [
 	}
 ]
 
-export default objData
+
+
+// const obj = {
+// 	id: "1",
+// 	image: 'url',
+// 	title: 'Пломба',
+// 	text: 'Авангард 220',
+// 	text2: 'По запросу'
+// }
+// let arr = []
+// for (let i = 0; i < 20; i++) {
+// 		arr.push( {
+// 			id: i,
+// 			image: avangard,
+// 			title: 'Пломба',
+// 			text: 'Авангард 220',
+// 			text2: 'По запросу'
+// 		})
+// }
+// console.log(arr);
+
+export const popular =[
+	{
+		 "id": 0,
+		 "image": "/static/media/avangard.efa8559c0b315a6ce08e.jpg",
+		 "title": "Пломба",
+		 "text": "Авангард 220",
+		 "text2": "По запросу"
+	},
+	{
+		 "id": 1,
+		 "image": "/static/media/avangard.efa8559c0b315a6ce08e.jpg",
+		 "title": "Пломба",
+		 "text": "Авангард 220",
+		 "text2": "По запросу"
+	},
+	{
+		 "id": 2,
+		 "image": "/static/media/avangard.efa8559c0b315a6ce08e.jpg",
+		 "title": "Пломба",
+		 "text": "Авангард 220",
+		 "text2": "По запросу"
+	},
+	{
+		 "id": 3,
+		 "image": "/static/media/avangard.efa8559c0b315a6ce08e.jpg",
+		 "title": "Пломба",
+		 "text": "Авангард 220",
+		 "text2": "По запросу"
+	},
+	{
+		 "id": 4,
+		 "image": "/static/media/avangard.efa8559c0b315a6ce08e.jpg",
+		 "title": "Пломба",
+		 "text": "Авангард 220",
+		 "text2": "По запросу"
+	},
+	{
+		 "id": 5,
+		 "image": "/static/media/avangard.efa8559c0b315a6ce08e.jpg",
+		 "title": "Пломба",
+		 "text": "Авангард 220",
+		 "text2": "По запросу"
+	},
+	{
+		 "id": 6,
+		 "image": "/static/media/avangard.efa8559c0b315a6ce08e.jpg",
+		 "title": "Пломба",
+		 "text": "Авангард 220",
+		 "text2": "По запросу"
+	},
+	{
+		 "id": 7,
+		 "image": "/static/media/avangard.efa8559c0b315a6ce08e.jpg",
+		 "title": "Пломба",
+		 "text": "Авангард 220",
+		 "text2": "По запросу"
+	},
+	{
+		 "id": 8,
+		 "image": "/static/media/avangard.efa8559c0b315a6ce08e.jpg",
+		 "title": "Пломба",
+		 "text": "Авангард 220",
+		 "text2": "По запросу"
+	},
+	{
+		 "id": 9,
+		 "image": "/static/media/avangard.efa8559c0b315a6ce08e.jpg",
+		 "title": "Пломба",
+		 "text": "Авангард 220",
+		 "text2": "По запросу"
+	},
+	{
+		 "id": 10,
+		 "image": "/static/media/avangard.efa8559c0b315a6ce08e.jpg",
+		 "title": "Пломба",
+		 "text": "Авангард 220",
+		 "text2": "По запросу"
+	},
+	{
+		 "id": 11,
+		 "image": "/static/media/avangard.efa8559c0b315a6ce08e.jpg",
+		 "title": "Пломба",
+		 "text": "Авангард 220",
+		 "text2": "По запросу"
+	},
+	{
+		 "id": 12,
+		 "image": "/static/media/avangard.efa8559c0b315a6ce08e.jpg",
+		 "title": "Пломба",
+		 "text": "Авангард 220",
+		 "text2": "По запросу"
+	},
+	{
+		 "id": 13,
+		 "image": "/static/media/avangard.efa8559c0b315a6ce08e.jpg",
+		 "title": "Пломба",
+		 "text": "Авангард 220",
+		 "text2": "По запросу"
+	},
+	{
+		 "id": 14,
+		 "image": "/static/media/avangard.efa8559c0b315a6ce08e.jpg",
+		 "title": "Пломба",
+		 "text": "Авангард 220",
+		 "text2": "По запросу"
+	},
+	{
+		 "id": 15,
+		 "image": "/static/media/avangard.efa8559c0b315a6ce08e.jpg",
+		 "title": "Пломба",
+		 "text": "Авангард 220",
+		 "text2": "По запросу"
+	},
+	{
+		 "id": 16,
+		 "image": "/static/media/avangard.efa8559c0b315a6ce08e.jpg",
+		 "title": "Пломба",
+		 "text": "Авангард 220",
+		 "text2": "По запросу"
+	},
+	{
+		 "id": 17,
+		 "image": "/static/media/avangard.efa8559c0b315a6ce08e.jpg",
+		 "title": "Пломба",
+		 "text": "Авангард 220",
+		 "text2": "По запросу"
+	},
+	{
+		 "id": 18,
+		 "image": "/static/media/avangard.efa8559c0b315a6ce08e.jpg",
+		 "title": "Пломба",
+		 "text": "Авангард 220",
+		 "text2": "По запросу"
+	},
+	{
+		 "id": 19,
+		 "image": "/static/media/avangard.efa8559c0b315a6ce08e.jpg",
+		 "title": "Пломба",
+		 "text": "Авангард 220",
+		 "text2": "По запросу"
+	}
+]
+
 

@@ -6,8 +6,8 @@
 	box-sizing: border-box;
 }
 * {
-	padding: 0px;
-	margin: 0px;
+	padding: 0px ;
+	margin: 0px ;
 	/* border: 0px; */
 }
 body {
@@ -24,3 +24,6 @@ code {
     monospace;
 }
 
+p {
+	margin: 0 !important;	
+	}

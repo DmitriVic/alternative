@@ -7,8 +7,8 @@ import ggg from '../../objData/img/Rectangle 134-1.jpg'
 
 
 
-export const Card = ({id, title, image}) => {
-	console.log(image);
+export const Card = ({ title, image}) => {
+
   return (
     <>
       <div className={s.card}>
