@@ -25,7 +25,7 @@ function App() {
 	const [data, setData] = useState(objData)
 	const [dataPopular, setDataPopular] = useState(popular)
 
-	console.log(popular);
+	// console.log(popular);
 
 	return (
 		<div className="container">
@@ -33,7 +33,10 @@ function App() {
 				<Header
 				setActive={setModalActive} 
 				 />
-				<Homepage data={data}/>
+				<Homepage
+				 data={data}
+				 dataPopular={dataPopular}
+				 />
 			</div>
 			
 			<Modal

@@ -5,6 +5,7 @@ import cn from "classnames";
 import Catalog from "../../Catalog";
 import InfoBlock from "../../InfoBlock";
 import PlombAndSys from "../../PlombAndSys";
+import PopularGoods from "../../PopularGoods";
 import Text from "../../Text";
 import s from "./index.module.scss";
 
@@ -12,7 +13,7 @@ import s from "./index.module.scss";
 
 
 
-export const Homepage = ({data}) => {
+export const Homepage = ({data, dataPopular}) => {
 
 
   return (
@@ -24,6 +25,7 @@ export const Homepage = ({data}) => {
 	 <Catalog data={data}/>
 	 <div style={{ height: '100px'}}></div>
 	 <InfoBlock/>
+	 <PopularGoods dataPopular={dataPopular} />
     </>
   );
 };
