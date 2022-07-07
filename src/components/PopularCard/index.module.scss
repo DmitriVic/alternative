@@ -1,0 +1,54 @@
+.PopularCard {
+	background: #fff;
+	font-family: "Montserrat";
+	width: 230px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	border-radius: 10px;
+}
+
+.PopularCard:hover {
+	filter: drop-shadow(0px 49px 14px rgba(0, 0, 0, 0.01)) drop-shadow(0px 31px 12px rgba(0, 0, 0, 0.04)) drop-shadow(0px 18px 11px rgba(0, 0, 0, 0.15)) drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.26)) drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.29)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.3));
+	transition: filter 0.9s;
+	cursor: pointer;
+}
+
+.image {
+}
+.title {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
+}
+.text {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 27px;
+	color: #000000;
+}
+.text2 {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	color: #676767;
+}
+
+.btn {
+	margin-top: 44px;
+	width: 166px;
+	height: 38px;
+	background: #f1524f;
+	border-radius: 10px;
+	border: none;
+	font-family: "Roboto";
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 21px;
+	color: #ffffff;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.btn:hover{
+	background: linear-gradient(0deg, #CC4744, #CC4744);
+}

@@ -9,6 +9,7 @@ import s from "./index.module.scss";
 
 
 export const Catalog = ({ data }) => {
+	
 	return (
 		<>
 			<div className={s.catalog}>
@@ -16,7 +17,10 @@ export const Catalog = ({ data }) => {
 					return (
 						<Card
 							{...el}
-							key={el.id} />
+							key={el.id} >
+							<img className={s.image} src={el.image} alt="" />
+							<div className='box'>{el.title}</div>
+						</Card>
 					)
 				})}
 			</div>

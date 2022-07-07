@@ -2,7 +2,7 @@
 //import { HeartTwoTone} from "@ant-design/icons/lib/icons";
 //import "antd/dist/antd.css";
 //import cn from "classnames";
-import Card2 from "../Card2";
+import PopularCard from "../PopularCard";
 import s from "./index.module.scss";
 
 
@@ -18,7 +18,7 @@ export const PopularGoods = ({dataPopular}) => {
 				{dataPopular.map((el) => {
 					if (el.id <= 4) {
 					return	(
-					<Card2
+					<PopularCard
 					key={el.id}
 					 {...el}/>
 					)}

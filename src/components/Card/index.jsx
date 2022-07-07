@@ -7,14 +7,15 @@ import s from "./index.module.scss";
 
 
 
-export const Card = ({ title, image}) => {
-
+export const Card = ({ title, image,children}) => {
+	console.log(children);
   return (
     <>
       <div className={s.card}>
 			{/* <img src={ggg} alt="" /> */}
 			{/* <img className={s.image} src={image} alt="" />
 			<div className={s.title}>{title}</div> */}
+			{children}
 		</div>
     </>
   );
