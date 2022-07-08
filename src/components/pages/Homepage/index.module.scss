@@ -1,2 +1,9 @@
 
-
+.gasket{
+	background: #000;
+	height: 158px;
+	@media (max-width:668px) {
+	height: 316px ;	
+	}
+	//padding-bottom: 228px;
+}
