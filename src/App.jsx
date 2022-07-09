@@ -20,6 +20,7 @@ import Homepage from "./components/pages/Homepage";
 
 
 
+
 function App() {
 	const [modalActive, setModalActive] = useState(false)
 	const [data, setData] = useState(objData)
@@ -38,6 +39,7 @@ function App() {
 				 dataPopular={dataPopular}
 				 />
 			</div>
+			
 			
 			<Modal
 				active={modalActive}

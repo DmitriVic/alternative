@@ -6,6 +6,8 @@ import Catalog from "../../Catalog";
 import InfoBlock from "../../InfoBlock";
 import PlombAndSys from "../../PlombAndSys";
 import PopularGoods from "../../PopularGoods";
+import SliderDoc from "../../SliderDoc";
+
 import Text from "../../Text";
 import TitleDocuments from "../../TitleDocuments";
 import s from "./index.module.scss";
@@ -32,6 +34,8 @@ export const Homepage = ({data, dataPopular}) => {
 	 <TitleDocuments/>
 	 <div className={s.gasket}></div>
 	 <div style={{ height: '100px', background: "green"}}></div>
+	 <SliderDoc/>
+
     </>
   );
 };
