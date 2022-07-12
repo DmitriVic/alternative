@@ -16,9 +16,8 @@ import s from "./index.module.scss";
 
 
 
-export const Homepage = ({data, dataPopular}) => {
-
-
+export const Homepage = ({setModalActive, modalActive, data, dataPopular}) => {
+	console.log(setModalActive);
   return (
     <>
     <PlombAndSys/>
@@ -34,7 +33,11 @@ export const Homepage = ({data, dataPopular}) => {
 	 <TitleDocuments/>
 	 <div className={s.gasket}></div>
 	 <div style={{ height: '100px', background: "green"}}></div>
-	 <SliderDoc/>
+	 <SliderDoc
+	 active={modalActive}
+	 setActive={setModalActive}
+	 />
+	
 
     </>
   );

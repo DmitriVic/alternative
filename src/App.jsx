@@ -14,7 +14,7 @@ import 'antd/dist/antd.css';
 import Header from "./components/Header/Header";
 import { useState } from "react";
 
-import Modal from "./components/Modal/Modal";
+import Modal from "./components/Modal/";
 import CallBackForm from "./components/CallBackForm";
 import Homepage from "./components/pages/Homepage";
 
@@ -35,6 +35,8 @@ function App() {
 				setActive={setModalActive} 
 				 />
 				<Homepage
+				setModalActive={setModalActive} 
+				modalActive={modalActive}
 				 data={data}
 				 dataPopular={dataPopular}
 				 />

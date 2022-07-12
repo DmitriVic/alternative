@@ -20,3 +20,18 @@ padding: 0 10px;
 	
 }
 
+.swiper-button-prev, .swiper-button-next {
+	color: black !important;
+
+}
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+	color: red !important;
+	opacity: 1 !important;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+	font-size: 30px !important ;
+	font-weight: 900 !important;
+	
+}
