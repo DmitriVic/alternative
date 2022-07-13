@@ -17,7 +17,7 @@ import s from "./index.module.scss";
 
 
 export const Homepage = ({setModalActive, modalActive, data, dataPopular}) => {
-	console.log(setModalActive);
+	
   return (
     <>
     <PlombAndSys/>

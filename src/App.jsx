@@ -5,7 +5,7 @@ import "@fontsource/roboto";
 // import objData from "./objData/objData"
 // import popular from "./objData/objData"
 
-import { objData , popular } from "./objData/objData";
+import { objData, popular } from "./objData/objData";
 
 //import * as objData from "./objData/objData";
 
@@ -32,22 +32,22 @@ function App() {
 		<div className="container">
 			<div className="content">
 				<Header
-				setActive={setModalActive} 
-				 />
+					setActive={setModalActive}
+				/>
 				<Homepage
-				setModalActive={setModalActive} 
-				modalActive={modalActive}
-				 data={data}
-				 dataPopular={dataPopular}
-				 />
+					setModalActive={setModalActive}
+					modalActive={modalActive}
+					data={data}
+					dataPopular={dataPopular}
+				/>
 			</div>
-			
-			
+
+
 			<Modal
 				active={modalActive}
 				setActive={setModalActive}>
-				<CallBackForm/>
-				</Modal>
+				<CallBackForm />
+			</Modal>
 
 		</div>
 	);
