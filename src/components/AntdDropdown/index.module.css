@@ -25,6 +25,11 @@
 .menu {
 	max-width: 384px;
 	
+	/* position: absolute;
+	left: 0;
+	top: 0; */
+
+	
 }
 .menu li:hover{
 	background: #fff;
@@ -40,8 +45,13 @@
 }
  	.link:hover{
 		background: #fff ;
-		color:  #f14f54 ; 
+		color:  #f14f54 !important ; 
 		
  }
 
+ .wrapper {
+	/* position: absolute; */
+	/* left: 0;
+	top: 0; */
+ }
  

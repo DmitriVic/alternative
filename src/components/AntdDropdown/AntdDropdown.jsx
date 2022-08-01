@@ -5,10 +5,10 @@ import '../../App.css';
 //import { DownOutlined } from '@ant-design/icons';
 import { Dropdown, Menu, Space } from 'antd';
 const menu = (
-  <Menu
+  <Menu 
     items={[
       {
-        label: <p  className={s.link}>  Универсальные пломбы</p>,
+        label: <a  className={s.link}>  Универсальные пломбы</a>,
         key: '0',
       },
       {
