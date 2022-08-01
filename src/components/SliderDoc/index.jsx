@@ -18,17 +18,31 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import Modal from "../Modal";
 import { useState } from "react";
+import { useRef } from "react";
 
-export const SliderDoc = ({ setActive, Active }) => {
-const [state, setState] = useState(false)
-const [stateImg, setStateImg] = useState()
-		function handleImg(params) {
-			setState(el => !el)
-			setStateImg(params)
+export const SliderDoc = ({}) => {
+	const [state, setState] = useState(false)
+	const [stateImg, setStateImg] = useState()
+	const refImg1 = useRef(null)
+	const refImg2 = useRef(null)
+	const refImg3 = useRef(null)
+	const refImg4 = useRef(null)
+
+
+	function handleImg(params) {
+		setState(el => !el)
+		setStateImg(params)
+	}
+	function handleWrapper(e) {
+		if (state === true) {
+			if (e.target !== refImg1.current || e.target !== refImg2.current || e.target !== refImg3.current ) {
+				setState(el => !el)
+			}
 		}
-
+		}
+		
 	return (
-		<div className={s.wrapper}>
+		<div className={s.wrapper} onClick={handleWrapper}>
 			<Swiper className={s.swipers}
 				modules={[Navigation, A11y]}
 				spaceBetween={0}
@@ -38,7 +52,7 @@ const [stateImg, setStateImg] = useState()
 				}}
 				onSlideChange={() => console.log('slide change')}
 				//onSwiper={(swiper) => console.log(swiper)}
-				
+
 				breakpoints={{
 					640: {
 						slidesPerView: 1,
@@ -54,22 +68,22 @@ const [stateImg, setStateImg] = useState()
 					},
 				}}
 
-				
+
 			>
-				
+
 
 				<div className={s.slideBox}>
-					<SwiperSlide className={s.slide} ><div className={s.box2}><img src={doc1} className={s.box} onClick={()=>handleImg(doc1)} alt="" /></div></SwiperSlide>
-					<SwiperSlide className={s.slide} ><div className={s.box2}><img src={doc2} className={s.box} onClick={()=>handleImg(doc2)} alt="" /></div></SwiperSlide>
-					<SwiperSlide className={s.slide} ><div className={s.box2}><img src={doc3} className={s.box} onClick={()=>handleImg(doc3)} alt="" /></div></SwiperSlide>
+					<SwiperSlide className={s.slide} ><div className={s.box2}><img ref={refImg1} src={doc1} className={s.box} onClick={() => handleImg(doc1)} alt="" /></div></SwiperSlide>
+					<SwiperSlide className={s.slide} ><div className={s.box2}><img ref={refImg2} src={doc2} className={s.box} onClick={() => handleImg(doc2)} alt="" /></div></SwiperSlide>
+					<SwiperSlide className={s.slide} ><div className={s.box2}><img ref={refImg3} src={doc3} className={s.box} onClick={() => handleImg(doc3)} alt="" /></div></SwiperSlide>
 
 				</div>
 			</Swiper>
-			{ state && <img className={s.img} src={stateImg} alt="" />}
-			
+			{state && <img ref={refImg4} className={s.img} src={stateImg} alt="" />}
+
 			<Modal
-				// setModalActive={setModalActive}
-				// ModalActive={ModalActive}
+			// setModalActive={setModalActive}
+			// ModalActive={ModalActive}
 			>
 
 			</Modal>
