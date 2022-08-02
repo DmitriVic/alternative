@@ -2,6 +2,7 @@
 //import { HeartTwoTone} from "@ant-design/icons/lib/icons";
 //import "antd/dist/antd.css";
 import cn from "classnames";
+import AskQuestion from "../../AskQuestion";
 import Catalog from "../../Catalog";
 import InfoBlock from "../../InfoBlock";
 import PlombAndSys from "../../PlombAndSys";
@@ -37,6 +38,9 @@ export const Homepage = ({setModalActive, modalActive, data, dataPopular}) => {
 	 active={modalActive}
 	 setActive={setModalActive}
 	 />
+	 <AskQuestion/>
+	
+	
 	
 
     </>
