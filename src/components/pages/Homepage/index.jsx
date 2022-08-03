@@ -4,6 +4,7 @@
 import cn from "classnames";
 import AskQuestion from "../../AskQuestion";
 import Catalog from "../../Catalog";
+import Footer from "../../Footer";
 import InfoBlock from "../../InfoBlock";
 import PlombAndSys from "../../PlombAndSys";
 import PopularGoods from "../../PopularGoods";
@@ -39,8 +40,8 @@ export const Homepage = ({setModalActive, modalActive, data, dataPopular}) => {
 	 setActive={setModalActive}
 	 />
 	 <AskQuestion/>
-	
-	
+	 <div style={{ height: '100px', background: "green"}}></div>
+	<Footer/>
 	
 
     </>

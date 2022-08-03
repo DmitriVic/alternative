@@ -24,6 +24,7 @@ export default function App() {
 	
 
 	return (
+		<div className={s.wrapper}>
 		<form className={s.form} onSubmit={handleSubmit(onSubmit)}>
 			<div className={s.form__title}>Задать вопрос</div>
 			
@@ -67,6 +68,7 @@ export default function App() {
 			</div>
 
 		</form>
+		</div>
 	);
 }
 
