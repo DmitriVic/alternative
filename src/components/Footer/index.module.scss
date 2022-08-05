@@ -1,4 +1,7 @@
 footer {
+	position: absolute;
+	left: 0;
+	right: 0;
 	background: linear-gradient(89.4deg, #f14f54 2.5%, #ff8f20 98.84%);
 	min-width: 200px;
 	padding: 0 20px;
@@ -13,6 +16,8 @@ footer {
 	}
 }
 .wrapper {
+	max-width: 1226px;
+	margin: 0 auto;
 	padding-top: 40px;
 	display: flex;
 	flex-direction: column;
@@ -37,8 +42,6 @@ footer {
 	display: flex;
 	flex-direction: column;
 	min-width: 220px;
-	font-family: "Montserrat";
-	font-style: normal;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 24px;

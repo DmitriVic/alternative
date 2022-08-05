@@ -9,7 +9,7 @@ import Logo from '../Logo'
 import bg from './img/Group 132.svg'
 
 
-function Header({setActive}) {
+const Header = ({setActive}) => {
 	return (
 		<div className={s.wrapper}>
 			<div className={s.header}>
@@ -26,3 +26,4 @@ function Header({setActive}) {
 }
 
 export default Header
+

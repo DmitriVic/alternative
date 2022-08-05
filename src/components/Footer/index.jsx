@@ -2,6 +2,7 @@
 //import { HeartTwoTone} from "@ant-design/icons/lib/icons";
 //import "antd/dist/antd.css";
 //import cn from "classnames";
+import Logo from "../Logo";
 import s from "./index.module.scss";
 
 
@@ -13,10 +14,11 @@ const Footer = () => {
 			<div className={s.wrapper}>
 				<div className={s.contactNav}>
 					<div className={s.box1}>
-						<p>O АЛЬТЕРНАТИВА Т </p>
+						{/* <p>O АЛЬТЕРНАТИВА Т </p> */}
+						<Logo footer/>
 						<div>
-							<p> +7 915 872 41 07 </p>
-							<p>+7 4752 504 507</p>
+							<p><a href="tel:+79158724107">+7 915 872 41 07</a></p>
+							<p><a href="tel:+74752504507" >+7 4752 504 507</a></p>
 						</div>
 					</div>
 					<div className={s.navMenu}>
