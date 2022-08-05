@@ -40,7 +40,7 @@ export const Homepage = ({setModalActive, modalActive, data, dataPopular}) => {
 	 setActive={setModalActive}
 	 />
 	 <AskQuestion/>
-	 <div style={{ height: '100px', background: "green"}}></div>
+	 
 	<Footer/>
 	
 
