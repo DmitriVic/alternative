@@ -34,12 +34,12 @@ function App() {
 				<Header
 					setActive={setModalActive}
 				/>
-				<Homepage
+				{/* <Homepage
 					setModalActive={setModalActive}
 					modalActive={modalActive}
 					data={data}
 					dataPopular={dataPopular}
-				/>
+				/> */}
 			</div>
 
 
