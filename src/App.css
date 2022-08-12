@@ -1,48 +1,47 @@
-
-
-.container{
-	background: url('./components/Header/img/bg.png') no-repeat;
+.container {
+	/* background: url("./components/Header/img/bg.png") no-repeat; */
 	/* background-position: right 150px top 0; */
-
-
-position: relative;
-margin: 0 auto;
-max-width: 1440px;
-/* background: rgb(238, 195, 195); */
+	position: relative;
+	margin: 0 auto;
+	max-width: 1440px;
+	/* background: rgb(238, 195, 195); */
 }
-@media (max-width:1440px) {
-	.container{
+@media (max-width: 1440px) {
+	.container {
 		background-position: right 0 top 0;
-	
 	}
 }
 
-
-.content{
-	
-margin: 0 auto;
-max-width: 1250px;
-/* background: rgb(123, 240, 210); */
-padding: 0 10px;
+.content {
+	display: flex;
+	margin: 0 auto;
+	max-width: 1250px;
+	/* background: rgb(123, 240, 210); */
+	padding: 0 10px;
 }
 
-.text{
-	font-family: 'Roboto';
-	
+.text {
+	font-family: "Roboto";
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
 	color: black !important;
-
 }
 
-.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
 	color: red !important;
 	opacity: 1 !important;
 }
 
-.swiper-button-next:after, .swiper-button-prev:after {
+.swiper-button-next:after,
+.swiper-button-prev:after {
 	font-size: 30px !important ;
 	font-weight: 900 !important;
-	
+}
+
+
+main {
+	flex: 1 1 auto;
 }

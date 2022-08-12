@@ -17,6 +17,9 @@ import { useState } from "react";
 import Modal from "./components/Modal/";
 import CallBackForm from "./components/CallBackForm";
 import Homepage from "./components/pages/Homepage";
+import AboutСompany from "./components/pages/AboutСompany";
+import { Footer } from "./components/Footer"
+
 
 
 
@@ -34,12 +37,17 @@ function App() {
 				<Header
 					setActive={setModalActive}
 				/>
-				{/* <Homepage
+				<main>
+						{/* <Homepage
 					setModalActive={setModalActive}
 					modalActive={modalActive}
 					data={data}
 					dataPopular={dataPopular}
 				/> */}
+				{/* <AboutСompany/> */}
+				</main>
+				<Footer/>
+				{/* <div className="box"></div> */}
 			</div>
 
 
