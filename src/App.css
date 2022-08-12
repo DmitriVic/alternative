@@ -1,5 +1,9 @@
+body {
+	
+}
+
 #root{
-	height: 100%;
+	/* height: inherit; */
 }
 
 .container {
@@ -18,13 +22,14 @@
 }
 
 .content {
-
-	height: 100%;
+	
+	/* position: relative; */
+	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
 	max-width: 1250px;
-	/* background: rgb(123, 240, 210); */
+	background: rgb(123, 240, 210);
 	padding: 0 10px;
 }
 
@@ -52,4 +57,23 @@
 
 main {
 	flex: 1 1 auto;
+	padding-bottom: 450px;
+}
+
+@media (max-width:1024px) {
+	main{
+		padding-bottom: 600px;
+	}
+}
+
+@media (max-width:768px) {
+	main{
+		padding-bottom: 700px;
+	}
+}
+
+@media (max-width:450px) {
+	main{
+		padding-bottom: 950px;
+	}
 }
